@@ -8,8 +8,8 @@ public class ConvertWindow extends MainWindow implements ActionListener {
     private JTextField TextField;
     private JButton b1,b2;
     private JComboBox CryptocurrencyBox,CurrencyBox;
-    private String Cryptocurrency[]={"BTC","ETH"};
-    private String Currency[]= {"SAR","USD"};
+    private String Cryptocurrency[]={"BTC","ETH","LTC","XEM","XRP","DASH","ETC","BCH","XMR"};
+    private String Currency[]= {"SAR","USD","AUD","EUR","BHD","GBP","RUB"};
 
     public ConvertWindow() { 
         
